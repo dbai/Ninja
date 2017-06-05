@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E63D39F31EB47A420023BB8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63D39F21EB47A420023BB8A /* AppDelegate.swift */; };
-		E63D39F51EB47A420023BB8A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E63D39F41EB47A420023BB8A /* GameScene.sks */; };
-		E63D39F71EB47A420023BB8A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E63D39F61EB47A420023BB8A /* Actions.sks */; };
 		E63D39F91EB47A420023BB8A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63D39F81EB47A420023BB8A /* GameScene.swift */; };
 		E63D39FB1EB47A420023BB8A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63D39FA1EB47A420023BB8A /* GameViewController.swift */; };
 		E63D39FE1EB47A420023BB8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63D39FC1EB47A420023BB8A /* Main.storyboard */; };
@@ -17,6 +15,9 @@
 		E63D3A031EB47A420023BB8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63D3A011EB47A420023BB8A /* LaunchScreen.storyboard */; };
 		E63D3A0E1EB47A430023BB8A /* NinjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63D3A0D1EB47A430023BB8A /* NinjaTests.swift */; };
 		E63D3A191EB47A430023BB8A /* NinjaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63D3A181EB47A430023BB8A /* NinjaUITests.swift */; };
+		E63D3A291EB47A890023BB8A /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = E63D3A271EB47A890023BB8A /* background-music-aac.caf */; };
+		E63D3A2A1EB47A890023BB8A /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = E63D3A281EB47A890023BB8A /* pew-pew-lei.caf */; };
+		E63D3A2C1EB47B2E0023BB8A /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63D3A2B1EB47B2E0023BB8A /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 /* Begin PBXFileReference section */
 		E63D39EF1EB47A420023BB8A /* Ninja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ninja.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E63D39F21EB47A420023BB8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E63D39F41EB47A420023BB8A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		E63D39F61EB47A420023BB8A /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		E63D39F81EB47A420023BB8A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E63D39FA1EB47A420023BB8A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		E63D39FD1EB47A420023BB8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +52,9 @@
 		E63D3A141EB47A430023BB8A /* NinjaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NinjaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E63D3A181EB47A430023BB8A /* NinjaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinjaUITests.swift; sourceTree = "<group>"; };
 		E63D3A1A1EB47A430023BB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E63D3A271EB47A890023BB8A /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		E63D3A281EB47A890023BB8A /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		E63D3A2B1EB47B2E0023BB8A /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +105,10 @@
 		E63D39F11EB47A420023BB8A /* Ninja */ = {
 			isa = PBXGroup;
 			children = (
+				E63D3A261EB47A890023BB8A /* Sounds */,
 				E63D39F21EB47A420023BB8A /* AppDelegate.swift */,
-				E63D39F41EB47A420023BB8A /* GameScene.sks */,
-				E63D39F61EB47A420023BB8A /* Actions.sks */,
 				E63D39F81EB47A420023BB8A /* GameScene.swift */,
+				E63D3A2B1EB47B2E0023BB8A /* GameOverScene.swift */,
 				E63D39FA1EB47A420023BB8A /* GameViewController.swift */,
 				E63D39FC1EB47A420023BB8A /* Main.storyboard */,
 				E63D39FF1EB47A420023BB8A /* Assets.xcassets */,
@@ -132,6 +134,15 @@
 				E63D3A1A1EB47A430023BB8A /* Info.plist */,
 			);
 			path = NinjaUITests;
+			sourceTree = "<group>";
+		};
+		E63D3A261EB47A890023BB8A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E63D3A271EB47A890023BB8A /* background-music-aac.caf */,
+				E63D3A281EB47A890023BB8A /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,11 +255,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E63D3A291EB47A890023BB8A /* background-music-aac.caf in Resources */,
 				E63D39FE1EB47A420023BB8A /* Main.storyboard in Resources */,
-				E63D39F51EB47A420023BB8A /* GameScene.sks in Resources */,
 				E63D3A001EB47A420023BB8A /* Assets.xcassets in Resources */,
+				E63D3A2A1EB47A890023BB8A /* pew-pew-lei.caf in Resources */,
 				E63D3A031EB47A420023BB8A /* LaunchScreen.storyboard in Resources */,
-				E63D39F71EB47A420023BB8A /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +286,7 @@
 			files = (
 				E63D39F91EB47A420023BB8A /* GameScene.swift in Sources */,
 				E63D39FB1EB47A420023BB8A /* GameViewController.swift in Sources */,
+				E63D3A2C1EB47B2E0023BB8A /* GameOverScene.swift in Sources */,
 				E63D39F31EB47A420023BB8A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,11 +441,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = W47WJBN2WL;
 				INFOPLIST_FILE = Ninja/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paitest.Ninja;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -442,11 +456,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = W47WJBN2WL;
 				INFOPLIST_FILE = Ninja/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paitest.Ninja;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
